@@ -18,9 +18,9 @@
 }
 .funci{background-color:rgb(79,107,111) ;
 }
-*{margin:0%;
-  padding: 0%;
+*{
   box-sizing: border-box;
+  
 }
 .font1 {font-size: 150%;
 }
@@ -28,7 +28,7 @@
   margin: 6%;
   position: absolute;
   top: 7;
-  right: 4%;
+  right: 9%;
   width: 80%; 
   height: 45%;;
 }
@@ -47,13 +47,14 @@
   width: 80%; 
   height: 45%;;
 }
+   
 #example1 {
-    padding: 40px ;
-    background: url(mm.gif);
-    background-repeat: no-repeat;
-    background-size: 1700px 350px;
-    
+  padding: 40px ;
+  background: url(mm.gif);
+  background-repeat: no-repeat;
+  background-size: 1700px 350px;
 }
+
 #example2 {
   padding: 40px ;
   background: url(mm.gif);
@@ -88,7 +89,7 @@ a:link, a:visited {
     background-color:rgb(79,107,111);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(79,107,111);
-    padding: 10px 30px;
+    padding: 10px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -100,23 +101,23 @@ a:hover, a:active {
  div.mar {
   margin: 10%;
   position: absolute;
-  top: 310px;
-  right: 890px;
-  width: 350px;
+  top: 263px;
+  right: 790px;
+  width: 340px;
 }
  div.marg {
 margin: 70px;
 position: absolute;
-top:400px;
-right:37px;
-width: 350px;  
+top:330px;
+right:6px;
+width: 340px;  
 }
 div.margem {
 margin: 10%;
 position: absolute;
-top: 310px;
-right: 460px;
-width: 350px;
+top: 263px;
+right: 380px;
+width: 340px;
 }
 div.margem1 {
   margin: 0.1%;
@@ -146,7 +147,7 @@ div.margem1 {
         margin: 0.1%;
         position: absolute;
         top: 40%;
-        right: 210px;  
+        right: 90px;  
         }
         .margem5 {
           margin: 0.1%;
@@ -168,7 +169,7 @@ div.margem1 {
               margin: 0.1%;
               position: absolute;
               top: 40%;
-              right: 110px;  
+              right: 25px;  
               }
               .margem8 {
                 position: absolute;
@@ -192,7 +193,7 @@ div.margem1 {
                     .margem11{
                       position: absolute;
                       top: 40%;
-                      right: 250px;  
+                      right: 150px;  
                     
                       }
                       .margem12{
@@ -209,18 +210,17 @@ div.margem1 {
                         .margem14{
                           position: absolute;
                           top: 110%;
-                          right: 7%;  
+                          right: 5.8%;  
                         }
                           .margem17{
                             position: absolute;
                             top: 38%;
-                            right: 210px;
+                            right: 90px;
                             }
 .fundo{ background-image: url(mm.gif);
 }
 ul {
     list-style-type: none;
-    padding: 120;
     overflow: hidden;
     background-color: #333;
 }
@@ -235,11 +235,10 @@ ul {
     display: block;
     color: #111;
     text-align: center;
-    padding: 164px 160px;
     text-decoration: none;
     top: 250px;
-    right: 450px;
-    width: 395.7px;
+    right: 460px;
+    width: 336.9px;
     height: 37px;
 }  
   li a:hover:not(.active) {
